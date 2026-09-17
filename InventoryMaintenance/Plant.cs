@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace InventoryMaintenance
 {
+    // Wes Johnson
+
+    //Plant represents inheritance well by being a sub class of InvItem being essentially a new version of the class with something to 
+    //differentiate them
     public class Plant : InvItem
     {
         public string Size { get; set; }

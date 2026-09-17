@@ -33,7 +33,7 @@ namespace InventoryMaintenance
             for (int i = 0; i < invItems.Count; i++)
             {
                 item = invItems[i];
-                lstItems.Items.Add(item.GetDisplayText());
+                lstItems.Items.Add(item.GetDisplayText(", "));
             }
         }
 
